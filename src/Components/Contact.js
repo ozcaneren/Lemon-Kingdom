@@ -1,7 +1,6 @@
 export default function Contact() {
   return (
-    <section
-      className="min-h-screen bg-gradient-to-r from-blue-600 via-blue-800 to-blue-900 dark:from-gray-700 dark:via-gray-800 dark:to-gray-900 ">
+    <section className="min-h-screen text-gray-200 body-font bg-slate-900 ">
       <div className="container flex flex-col min-h-screen px-6 py-12 mx-auto">
         <div className="flex-1 lg:flex lg:items-center lg:-mx-6">
           <div className="text-white lg:w-1/2 lg:mx-6">
@@ -88,8 +87,7 @@ export default function Contact() {
           </div>
 
           <div className="mt-8 lg:w-1/2 lg:mx-6">
-            <div
-              className="w-full px-8 py-10 mx-auto overflow-hidden bg-white shadow-2xl rounded-xl dark:bg-gray-900 lg:max-w-xl">
+            <div className="w-full px-8 py-10 mx-auto overflow-hidden bg-white shadow-2xl rounded-xl dark:bg-gray-900 lg:max-w-xl">
               <h1 className="text-2xl font-medium text-gray-700 dark:text-gray-200">Contact form</h1>
 
               <form className="mt-6">

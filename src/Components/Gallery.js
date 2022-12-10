@@ -1,74 +1,86 @@
+import lemon1  from "../images/lemon-600x360.png"
+import lemon2  from "../images/lemon1-600x360.png"
+import lemon3  from "../images/lemon2-600x360.png"
+import lemon4  from "../images/lemon3-600x360.png"
+import lemon5  from "../images/lemon4-600x360.png"
+import lemon6  from "../images/lemon5-600x360.png"
+import Slider from "react-slick"
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
+
+
 export default function Gallery() {
+
+  const settings = {
+    dots: false,
+    infinite: true,
+    arrows: false,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: false,
+    speed: 500,
+    autoplaySpeed: 2000
+  };
+
   return (
-    <section className="text-gray-400 bg-gray-900 body-font">
-      <div className="container px-5 py-24 mx-auto">
-        <div className="flex flex-col text-center w-full mb-20">
-          <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">Master Cleanse Reliac Heirloom</h1>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom.</p>
-        </div>
-        <div className="flex flex-wrap -m-4">
-          <div className="lg:w-1/3 sm:w-1/2 p-4">
-            <div className="flex relative">
-              <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/600x360" />
-              <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                <h2 className="tracking-widest text-sm title-font font-medium text-indigo-400 mb-1">THE SUBTITLE</h2>
-                <h1 className="title-font text-lg font-medium text-white mb-3">Shooting Stars</h1>
-                <p className="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+      <section className="text-gray-200 bg-yellow-500">
+        <div className="container px-5 pt-12 mx-auto">
+          <h1 className="text-center font-bold text-4xl mb-12 text-white">Types of Lemons</h1>
+          <div className="flex flex-wrap -m-4">
+            <div className="p-4 md:w-1/3">
+                <div className="h-full border-2 border-green-800 rounded-lg overflow-hidden">
+                  <img className="lg:h-48 md:h-36 w-full object-cover object-center" src={lemon2} alt="blog" />
+                    <div className="p-6 bg-green-800">
+                      <h2 className="tracking-widest text-xs title-font font-medium text-gray-300 mb-1">
+                        CATEGORY
+                      </h2>
+                      <h1 className="title-font text-lg font-medium text-white mb-3">
+                        The Catalyzer
+                      </h1>
+                      <p className="leading-relaxed mb-3 text-gray-200 font-semibold">
+                        Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
+                        microdosing tousled waistcoat.
+                      </p>
+                    </div>
+                </div>
               </div>
-            </div>
-          </div>
-          <div className="lg:w-1/3 sm:w-1/2 p-4">
-            <div className="flex relative">
-              <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/601x361" />
-              <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                <h2 className="tracking-widest text-sm title-font font-medium text-indigo-400 mb-1">THE SUBTITLE</h2>
-                <h1 className="title-font text-lg font-medium text-white mb-3">The Catalyzer</h1>
-                <p className="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+            <div className="p-4 md:w-1/3">
+                <div className="h-full border-2 border-green-800 rounded-lg overflow-hidden">
+                  <img className="lg:h-48 md:h-36 w-full object-cover object-center" src={lemon6} alt="blog" />
+                  <div className="p-6 bg-green-800">
+                    <h2 className="tracking-widest text-xs title-font font-medium text-gray-300 mb-1">
+                      CATEGORY
+                    </h2>
+                    <h1 className="title-font text-lg font-medium text-white mb-3">
+                      The Catalyzer
+                    </h1>
+                    <p className="leading-relaxed mb-3 text-gray-200 font-semibold">
+                      Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
+                      microdosing tousled waistcoat.
+                    </p>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-          <div className="lg:w-1/3 sm:w-1/2 p-4">
-            <div className="flex relative">
-              <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/603x363" />
-              <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                <h2 className="tracking-widest text-sm title-font font-medium text-indigo-400 mb-1">THE SUBTITLE</h2>
-                <h1 className="title-font text-lg font-medium text-white mb-3">The 400 Blows</h1>
-                <p className="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+            <div className="p-4 md:w-1/3">
+                <div className="h-full border-2 border-green-800 rounded-lg overflow-hidden">
+                  <img className="lg:h-48 md:h-36 w-full" src={lemon1} alt="blog" />
+                  <div className="p-6 bg-green-800">
+                    <h2 className="tracking-widest text-xs title-font font-medium text-gray-300 mb-1">
+                      CATEGORY
+                    </h2>
+                    <h1 className="title-font text-lg font-medium text-white mb-3">
+                      The Catalyzer
+                    </h1>
+                    <p className="leading-relaxed mb-3 text-gray-200 font-semibold">
+                      Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
+                      microdosing tousled waistcoat.
+                    </p>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-          <div className="lg:w-1/3 sm:w-1/2 p-4">
-            <div className="flex relative">
-              <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/602x362" />
-              <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                <h2 className="tracking-widest text-sm title-font font-medium text-indigo-400 mb-1">THE SUBTITLE</h2>
-                <h1 className="title-font text-lg font-medium text-white mb-3">Neptune</h1>
-                <p className="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
-              </div>
-            </div>
-          </div>
-          <div className="lg:w-1/3 sm:w-1/2 p-4">
-            <div className="flex relative">
-              <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/605x365" />
-              <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                <h2 className="tracking-widest text-sm title-font font-medium text-indigo-400 mb-1">THE SUBTITLE</h2>
-                <h1 className="title-font text-lg font-medium text-white mb-3">Holden Caulfield</h1>
-                <p className="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
-              </div>
-            </div>
-          </div>
-          <div className="lg:w-1/3 sm:w-1/2 p-4">
-            <div className="flex relative">
-              <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/606x366" />
-              <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                <h2 className="tracking-widest text-sm title-font font-medium text-indigo-400 mb-1">THE SUBTITLE</h2>
-                <h1 className="title-font text-lg font-medium text-white mb-3">Alper Kamu</h1>
-                <p className="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
-              </div>
-            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
   );
 }

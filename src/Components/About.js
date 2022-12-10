@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <div className="flex w-full flex-col items-center justify-center p-8 text-gray-200 body-font bg-gray-900">
+    <div className="flex w-full flex-col items-center justify-center p-8 text-gray-200 body-font bg-slate-900">
       <div>
         <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 fill-current text-gray-500" viewBox="0 0 24 24">
           <path fill-rule="evenodd"

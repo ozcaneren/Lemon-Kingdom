@@ -1,6 +1,6 @@
 export default function Service() {
   return (
-    <section className="text-gray-400 body-font bg-gray-900">
+    <section className="text-gray-400 body-font bg-slate-900">
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-wrap w-full mb-20 flex-col items-center text-center">
           <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-white">Pitchfork Kickstarter
