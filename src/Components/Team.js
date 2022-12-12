@@ -4,7 +4,7 @@ import {GiFarmer} from "react-icons/gi"
 export default function Team() {
   return (
     <section className="bg-white dark:bg-yellow-500">
-      <div className="container px-6 py-10 mx-auto">
+      <div className="container px-6 lg:pt-10 pb-10 mx-auto">
         <h1 className="text-3xl font-semibold text-center text-gray-800 capitalize lg:text-4xl dark:text-white">
           Workers
         </h1>

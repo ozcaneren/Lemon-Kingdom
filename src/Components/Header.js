@@ -6,9 +6,9 @@ export default function Header() {
   return (
     <header className="text-gray-300 bg-green-700 body-font">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-        <a href="https://github.com" className="flex title-font font-medium items-center text-white mb-4 md:mb-0 hover:text-yellow-500">
+        <a href="https://github.com" className="flex title-font font-bold items-center text-white mb-4 md:mb-0 hover:text-yellow-500">
           <FaRegLemon />
-          <span className="ml-3 text-xl">Lemon Kingdom</span>
+          <span className="ml-3 text-2xl">Lemon Kingdom</span>
         </a>
         <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center gap-x-5">
           <a href="https://github.com" className="flex title-font font-medium items-center text-white mb-4 md:mb-0 hover:text-yellow-500">

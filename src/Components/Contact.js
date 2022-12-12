@@ -6,7 +6,7 @@ import {FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn} from 'react-icons/fa'
 export default function Contact() {
   return (
     <section className="min-h-screen text-gray-200 body-font bg-yellow-500 ">
-      <div className="container flex flex-col min-h-screen px-6 pt-6 mx-auto">
+      <div className="container flex flex-col min-h-screen lg:pt-6 px-6 py-6 mx-auto">
         <div className="flex-1 lg:flex lg:items-center lg:-mx-6">
           <div className="text-white lg:w-1/2 lg:mx-6">
             <h1 className="text-3xl font-semibold capitalize lg:text-4xl">Get a quote</h1>

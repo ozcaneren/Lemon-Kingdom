@@ -4,7 +4,7 @@ export default function HeroSection() {
   return (
     <section className=" text-gray-800 bg-yellow-500 font-semibold">
       <div className="container mx-auto flex px-5 md:flex-row flex-col items-center">
-        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:mb-0 mb-10">
+        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-6/6 lg:h-full md:mb-0 mb-10">
           <img className="h-[426px] w-[512px]" alt="" src={ lemonimg } />
         </div>
         <div
@@ -17,11 +17,6 @@ export default function HeroSection() {
             This makes fresh lemons available year-round in many parts of the world.
             The fruit can be dried, candied, preserved, or juiced and used in drinks or to add tang to a wide range of dishes.
           </p>
-          <div className="flex justify-center">
-            <button className="inline-flex text-white bg-green-700 border-0 py-2 px-6 focus:outline-none hover:bg-yellow-600 rounded text-lg">
-              More lemon!!!
-            </button>
-          </div>
         </div>
       </div>
     </section>
