@@ -1,28 +1,8 @@
 import lemon1  from "../images/lemon-600x360.png"
 import lemon2  from "../images/lemon1-600x360.png"
-import lemon3  from "../images/lemon2-600x360.png"
-import lemon4  from "../images/lemon3-600x360.png"
-import lemon5  from "../images/lemon4-600x360.png"
 import lemon6  from "../images/lemon5-600x360.png"
-import Slider from "react-slick"
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-
-
 
 export default function Gallery() {
-
-  const settings = {
-    dots: false,
-    infinite: true,
-    arrows: false,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    autoplay: false,
-    speed: 500,
-    autoplaySpeed: 2000
-  };
-
   return (
       <section className="text-gray-200 bg-yellow-500">
         <div className="container px-5 pt-12 mx-auto">

@@ -1,4 +1,3 @@
-import {FaGithubSquare} from "react-icons/fa"
 import {GrFacebook, GrInstagram} from "react-icons/gr"
 import {GiFarmer} from "react-icons/gi"
 
@@ -23,15 +22,15 @@ export default function Team() {
               </p>
 
               <div className="flex mt-3 -mx-2">
-                <a href="#" className="mx-2 text-green-800 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white" aria-label="Reddit">
+                <a href="https://github.com" className="mx-2 text-green-800 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white" aria-label="Reddit">
                   <GrFacebook size={23} />
                 </a>
 
-                <a href="#" className="mx-2 text-green-800 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white" aria-label="Facebook">
+                <a href="https://github.com" className="mx-2 text-green-800 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white" aria-label="Facebook">
                   <GrInstagram size={24} />
                 </a>
 
-                <a href="#" className="mx-2 text-green-800 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white" aria-label="Github">
+                <a href="https://github.com" className="mx-2 text-green-800 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white" aria-label="Github">
                   <GiFarmer size={25} />
                 </a>
               </div>
@@ -49,15 +48,15 @@ export default function Team() {
             </p>
 
             <div className="flex mt-3 -mx-2">
-              <a href="#" className="mx-2 text-green-800 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white" aria-label="Reddit">
+              <a href="https://github.com" className="mx-2 text-green-800 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white" aria-label="Reddit">
                 <GrFacebook size={23} />
               </a>
 
-              <a href="#" className="mx-2 text-green-800 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white" aria-label="Facebook">
+              <a href="https://github.com" className="mx-2 text-green-800 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white" aria-label="Facebook">
                 <GrInstagram size={24} />
               </a>
 
-              <a href="#" className="mx-2 text-green-800 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white" aria-label="Github">
+              <a href="https://github.com" className="mx-2 text-green-800 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white" aria-label="Github">
                 <GiFarmer size={25} />
               </a>
             </div>
@@ -75,15 +74,15 @@ export default function Team() {
             </p>
 
             <div className="flex mt-3 -mx-2">
-              <a href="#" className="mx-2 text-green-800 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white" aria-label="Reddit">
+              <a href="https://github.com" className="mx-2 text-green-800 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white" aria-label="Reddit">
                 <GrFacebook size={23} />
               </a>
 
-              <a href="#" className="mx-2 text-green-800 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white" aria-label="Facebook">
+              <a href="https://github.com" className="mx-2 text-green-800 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white" aria-label="Facebook">
                 <GrInstagram size={24} />
               </a>
 
-              <a href="#" className="mx-2 text-green-800 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white" aria-label="Github">
+              <a href="https://github.com" className="mx-2 text-green-800 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white" aria-label="Github">
                 <GiFarmer size={25} />
               </a>
             </div>

@@ -1,8 +1,6 @@
-import { SlLocationPin } from 'react-icons/sl';
-import { GrLocation } from 'react-icons/gr';
 import { HiOutlineLocationMarker } from 'react-icons/hi';
 import { BsTelephone } from 'react-icons/bs';
-import {AiFillAccountBook, AiOutlineMail} from 'react-icons/ai';
+import {AiOutlineMail} from 'react-icons/ai';
 import {FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn} from 'react-icons/fa';
 
 export default function Contact() {
@@ -39,19 +37,19 @@ export default function Contact() {
               <h3 className="text-gray-100 font-semibold pb-2">Follow us</h3>
 
               <div className="flex mt-4 -mx-1.5 gap-x-4">
-                <a className="mx-1.5 text-white transition-colors duration-300 transform hover:text-blue-500" href="#">
+                <a href="https://github.com" className="mx-1.5 text-white transition-colors duration-300 transform hover:text-blue-500">
                     <FaFacebookF className="w-6 h-6 text-green-800" />
                 </a>
 
-                <a className="mx-1.5 text-white transition-colors duration-300 transform hover:text-blue-500" href="#">
+                <a href="https://github.com" className="mx-1.5 text-white transition-colors duration-300 transform hover:text-blue-500">
                     <FaTwitter className="w-6 h-6 text-green-800" />
                 </a>
 
-                <a className="mx-1.5 text-white transition-colors duration-300 transform hover:text-blue-500" href="#">
+                <a href="https://github.com" className="mx-1.5 text-white transition-colors duration-300 transform hover:text-blue-500">
                     <FaInstagram className="w-6 h-6 text-green-800" />
                 </a>
 
-                <a className="mx-1.5 text-white transition-colors duration-300 transform hover:text-blue-500" href="#">
+                <a href="https://github.com" className="mx-1.5 text-white transition-colors duration-300 transform hover:text-blue-500">
                     <FaLinkedinIn className="w-6 h-6 text-green-800" />
                 </a>
               </div>
