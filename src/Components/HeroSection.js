@@ -2,7 +2,7 @@ import lemonimg from "../images/lemon720x600.png"
 
 export default function HeroSection() {
   return (
-    <section className="text-gray-700 bg-yellow-500 font-semibold">
+    <section className=" text-gray-800 bg-yellow-500 font-semibold">
       <div className="container mx-auto flex px-5 md:flex-row flex-col items-center">
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:mb-0 mb-10">
           <img className="h-[426px] w-[512px]" alt="" src={ lemonimg } />

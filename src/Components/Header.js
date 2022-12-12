@@ -29,7 +29,7 @@ export default function Header() {
           </a>
         </nav>
         <div className="flex flex-wrap items-center text-base justify-center">
-          <a href="#" className="inline-flex items-center bg-yellow-600 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0 gap-x-1">
+          <a href="#" className="inline-flex items-center bg-yellow-500 text-white border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0 gap-x-1">
             <TbLemon2 />
             <span>Lemons!!!</span>
           </a>
